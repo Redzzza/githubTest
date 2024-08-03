@@ -50,12 +50,19 @@
   margin-left: 20px;
   width: 246px;
 }
+
 .first-lp-text-title,
 .second-lp-text-title,
 .third-lp-text-title {
   color: rgb(14, 9, 156);
   font-weight: 500;
   font-size: 16px;
+}
+
+.first-lp-text-title,
+.second-lp-text-title,
+.third-lp-text-title {
+  color: rgb(14, 9, 160);
 }
 
 .first-lp-text-description, 
