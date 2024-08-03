@@ -1,0 +1,46 @@
+.mp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+  margin-bottom: 100px;
+  padding-top: 70px;
+}
+
+.mp-text {
+  width: 30%;
+  margin-right: 50px;
+}
+
+.mp-image {
+  flex: 1;
+}
+
+.mp-name {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(31, 152, 152);
+  margin: 0;
+}
+
+
+.tv-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.mp-title {
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(18, 58, 151);
+}
+
+.mp-description {
+  width: 83%;
+  color: rgb(38, 37, 81);
+  word-spacing: 2.5px;
+}

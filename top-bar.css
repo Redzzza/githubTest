@@ -1,0 +1,49 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+button,
+.case-study-dropdown,
+.company-dropdown {
+  margin-left: 8px;
+}
+
+.blog-button {
+  color: rgb(31, 100, 231);
+  padding: 10px 22px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.blog-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.book-demo-button {
+  background-color: rgb(31, 100, 231);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.book-demo-button:hover {
+  opacity: 0.7;
+}
+
+.right-side-top-bar {
+  display: flex;
+  align-items: center;
+}
